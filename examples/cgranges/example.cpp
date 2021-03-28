@@ -22,13 +22,13 @@ int main(void)
 	tree.add(21, 22, n++);
 	tree.add(22, 22, n++);
 	tree.add(22, 23, n++);
-	tree.add(25, 25, n++);
-	tree.add(25, 26, n++);
+	//tree.add(25, 25, n++);
+	//tree.add(25, 26, n++);
 	tree.index();
     cout << "All:\n";
     Dump(tree);
     int left = 22;
-    int right = 22;
+    int right = 23;
     cout << "overlap(" << left << ", " << right << ")\n";
 	std::vector<size_t> a;
 	tree.overlap(left, right, a);
