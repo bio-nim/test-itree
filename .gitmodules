@@ -1,0 +1,6 @@
+[submodule "submodules/intervaltree"]
+	path = submodules/intervaltree
+	url = https://github.com/ekg/intervaltree.git
+[submodule "submodules/cgranges"]
+	path = submodules/cgranges
+	url = https://github.com/lh3/cgranges.git
